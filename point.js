@@ -4,7 +4,7 @@ export class Point {
         this.y = y || 0;
     }
 
-    andd(point) {
+    add(point) {
         this.x += point.x;
         this.y += point.y;
         return this;

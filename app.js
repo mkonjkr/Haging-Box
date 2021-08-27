@@ -7,7 +7,7 @@ class App {
         this.canvas = document.createElement('canvas');
         this.ctx = this.canvas.getContext('2d');
         document.body.appendChild(this.canvas);
-
+        //for retina display
         this.pixelRatio = window.devicePixelRatio > 1 ? 2 : 1;
 
         this.mousePos = new Point();
@@ -72,7 +72,6 @@ class App {
                 this.items.push(this.items.splice(index, 1)[0]);
                 break;
             }
-
         }
     }
 

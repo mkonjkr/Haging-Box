@@ -43,8 +43,10 @@ class App {
         this.ctx.shadowBlur = 6;
         this.ctx.shadowColor = 'rgba(0, 0, 0, 0.1)';
 
-        this.ctx.lineWidth = 2;
 
+
+        this.ctx.lineWidth = 2;
+        //for le
         for (let i = 0; i < this.items.length; i++) {
             this.items[i].resize(this.stageWidth, this.stageHeight);
 
